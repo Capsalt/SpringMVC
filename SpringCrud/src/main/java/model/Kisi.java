@@ -12,7 +12,6 @@ import javax.persistence.Table;
 
 public class Kisi {
 	
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;
@@ -71,7 +70,6 @@ public class Kisi {
 	public void setYas(int yas) {
 		this.yas = yas;
 	}
-
 
 	@Override
 	public String toString() {

@@ -31,7 +31,6 @@ public class KisiController {
 		
 	}
 	
-	
 	@GetMapping
 	public List<Kisi> kisileriGetir(){
 		return kisiService.tumKisileriGetir();
